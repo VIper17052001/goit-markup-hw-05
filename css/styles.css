@@ -89,25 +89,13 @@ section {
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
   color: var(--first-text-color);
 }
-.header-link:hover::after,
-.header-link:focus::after {
-  color: var(--first-text-color);
-  content: "";
-  position: absolute;
-  background: #2196f3;
-  left: 0;
-  bottom: -1px;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-}
+
 .header-link-color {
   color: var(--first-text-color);
 }
@@ -144,8 +132,7 @@ section {
   padding-bottom: 32px;
   display: flex;
   align-items: center;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contact-mail:hover,
 .header-contact-mail:focus {
@@ -167,8 +154,7 @@ section {
   padding-bottom: 32px;
   display: flex;
   align-items: center;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contact-tel:hover,
 .header-contact-tel:focus {
@@ -216,12 +202,11 @@ section {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover {
-  background: #188ce8;
+  background-color: #188ce8;
 }
 /* Softskills */
 .softskills {
@@ -301,8 +286,8 @@ section {
   align-items: center;
   justify-content: center;
   color: #afb1b8;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:hover,
 .team-soc-link:focus {
@@ -428,6 +413,7 @@ section {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-nav-item:hover,
 .portfolio-nav-item:focus {
@@ -442,8 +428,8 @@ section {
   font-style: normal;
 
   padding: 6px 22px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-nav-btn:hover {
   background: var(--first-button-color);
@@ -540,13 +526,11 @@ section {
 .client-item {
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-item:hover,
 .client-item:focus {
   border: 1px solid #2196f3;
-  border-radius: 4px;
 }
 .client-link {
   color: #afb1b8;
@@ -555,8 +539,7 @@ section {
   justify-content: center;
   width: 170px;
   height: 92px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-link:hover,
 .client-link:focus {
@@ -595,8 +578,8 @@ section {
   align-items: center;
   justify-content: center;
   color: #fff;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-soc-link:hover,
 .social-soc-link:focus {
